@@ -7,7 +7,7 @@ public class Singleton {
   private static Singleton instance = null;
 
   private Singleton() {
-    singletonString = "Only assign in the constructor";
+    singletonString = "Singleton class than hava a one object at a time.";
   }
 
   /**
@@ -20,5 +20,14 @@ public class Singleton {
       instance = new Singleton();
     }
     return instance;
+  }
+
+  /**
+   * Get to string.
+   *
+   * @return string
+   */
+  public String getSingletonString() {
+    return singletonString;
   }
 }
