@@ -1,4 +1,4 @@
-package main.java.com.typesOfClasses.asbtractClass;
+package main.java.com.typesOfClasses.abstractClass;
 
 /** Complete the abstract class. */
 public class CompleteAbstractClass extends Abstract {
@@ -9,6 +9,6 @@ public class CompleteAbstractClass extends Abstract {
    * @param msg String.
    */
   public String printAnything(String msg) {
-    return "Abstract: Message receive of the extention of the abstract class: " + msg;
+    return "Abstract: Message receive of the extension of the abstract class: " + msg;
   }
 }

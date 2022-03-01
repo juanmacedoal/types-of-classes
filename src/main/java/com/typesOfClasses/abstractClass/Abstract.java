@@ -1,4 +1,4 @@
-package main.java.com.typesOfClasses.asbtractClass;
+package main.java.com.typesOfClasses.abstractClass;
 
 /** Abstract class can be complete extending with another class. Can´t be instantiate. */
 public abstract class Abstract {
